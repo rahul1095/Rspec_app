@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+first_like:
+  article: article_one
+  comment_id: article1_comment
+  user: first_person
+
+second_like:
+  article: article_three
+  comment: article1_comment
+  user: first_person

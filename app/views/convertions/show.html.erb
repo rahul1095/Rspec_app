@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @convertion.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%= @convertion.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_convertion_path(@convertion) %> |
+<%= link_to 'Back', convertions_path %>

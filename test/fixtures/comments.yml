@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+article1_comment:
+  body: This is rails Applicatipn
+  article: article_three
+  user: first_person
+
+article2_comment:
+  body: This is new rails Applicatipn
+  article: article_three
+  user: first_person

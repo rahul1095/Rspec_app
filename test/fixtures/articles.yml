@@ -1,0 +1,18 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+article_one:
+  title: Mihir
+  body: This is for testing
+  user: first_person
+
+article_one:
+  title: Mihir
+  body: This is for testing
+  user: first_person
+
+# article_three:
+#   title: rahul
+#   user: first_person
+
+
+

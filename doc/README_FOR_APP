@@ -1,0 +1,11 @@
+Use this README file to introduce your application and point to useful places in the API for learning more.
+Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+
+
+
+
+rspec  spec/models/post_spec.rb  --------  To run  Rspec command
+
+ruby -Itest test/unit/article_test.rb -n test_the_truth -- running  A Rspec Test
+
+rake db:test:load ------- Recreate database schema
