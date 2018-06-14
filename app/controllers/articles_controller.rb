@@ -38,8 +38,9 @@ class ArticlesController < ApplicationController
   # POST /articles
   # POST /articles.json
   def create
-    # @article = Article.new(title:params[:article][:title],body:params[:article][:title])
-    @article = Article.find(params[:article])
+  
+    @article = Article.new(title:params[:article][:title],body:params[:article][:body])
+    # @article = Article.find(params[:article])
     respond_to do |format|
       if @article.save
         format.html { redirect_to(articles_path) }
