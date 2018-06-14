@@ -36,8 +36,8 @@ RSpec.describe Comment do
   #   user2 = build(:post, title: "Joe")
   #   expect(user2).to_not be_valid
   # end
-endrequire 'rails_helper'
+# endrequire 'rails_helper'
 
-RSpec.describe Comment, :type => :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+# RSpec.describe Comment, :type => :model do
+#   pending "add some examples to (or delete) #{__FILE__}"
 end

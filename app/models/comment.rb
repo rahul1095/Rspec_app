@@ -4,6 +4,6 @@ class Comment < ActiveRecord::Base
   belongs_to :user
   has_many :likes
 
-   validates :article_id, presence: true
+   # validates :article_id, presence: true
    validates :body, presence: true
 end
