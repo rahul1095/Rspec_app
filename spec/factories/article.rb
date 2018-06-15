@@ -7,6 +7,7 @@ FactoryBot.define do
   factory :article do
     title                  { FFaker::Name.unique.name}
     body                 {"This is for testing"}
+    # id                   {1}
     association :user
   end
 
